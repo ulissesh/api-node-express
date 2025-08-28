@@ -22,5 +22,5 @@ app.use(checkApiKey);
 app.use('/api/user', userRoutes);
 
 app.listen(port, () => {
-  console.log(Server is running on port ${port});
+  console.log(`Server is running on port ${port}`);
 });
